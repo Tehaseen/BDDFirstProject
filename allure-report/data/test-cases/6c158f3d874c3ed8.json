@@ -1,0 +1,133 @@
+{
+  "uid" : "6c158f3d874c3ed8",
+  "name" : "PoS Store - Validate navigation to New customer page",
+  "fullName" : "GigaStore Point of Sale Store: PoS Store - Validate navigation to New customer page",
+  "historyId" : "799df3f7d33c05dbef19f8f0fa1c7c58",
+  "time" : {
+    "start" : 1631108050177,
+    "stop" : 1631108076066,
+    "duration" : 25889
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError\n",
+  "statusTrace" : "  File \"/Users/tehaseenmujawar/PycharmProjects/BDDFirstProject/venv/lib/python3.9/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Users/tehaseenmujawar/PycharmProjects/BDDFirstProject/venv/lib/python3.9/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/GigaStorePOSSsteps.py\", line 40, in verify_customer_card\n    assert element.text == \"New Customer\"\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError\n",
+    "statusTrace" : "  File \"/Users/tehaseenmujawar/PycharmProjects/BDDFirstProject/venv/lib/python3.9/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Users/tehaseenmujawar/PycharmProjects/BDDFirstProject/venv/lib/python3.9/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/GigaStorePOSSsteps.py\", line 40, in verify_customer_card\n    assert element.text == \"New Customer\"\n",
+    "steps" : [ {
+      "name" : "Given login to the GigaStore",
+      "time" : {
+        "start" : 1631108050177,
+        "stop" : 1631108069852,
+        "duration" : 19675
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When navigate to Point of Sale store",
+      "time" : {
+        "start" : 1631108069853,
+        "stop" : 1631108073972,
+        "duration" : 4119
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And click on New Customer card",
+      "time" : {
+        "start" : 1631108073972,
+        "stop" : 1631108076047,
+        "duration" : 2075
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then verify navigation to New Customer card",
+      "time" : {
+        "start" : 1631108076047,
+        "stop" : 1631108076065,
+        "duration" : 18
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError\n",
+      "statusTrace" : "  File \"/Users/tehaseenmujawar/PycharmProjects/BDDFirstProject/venv/lib/python3.9/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Users/tehaseenmujawar/PycharmProjects/BDDFirstProject/venv/lib/python3.9/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/GigaStorePOSSsteps.py\", line 40, in verify_customer_card\n    assert element.text == \"New Customer\"\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "And close browser",
+      "time" : {
+        "start" : 1631108076066,
+        "stop" : 1631108076066,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "GigaStore Point of Sale Store"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6c158f3d874c3ed8.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,265 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "PoS Store - Validate navigation to New customer page",
+    "uid" : "dd0b1c0ebff02466",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631183531231,
+      "stop" : 1631183557180,
+      "duration" : 25949
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Login to GigaStore with valid parameters",
+    "uid" : "a706554681b8b25b",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1631108050174,
+      "stop" : 1631108050175,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "PoS Store - Validate navigation to New customer page",
+    "uid" : "b3da68d94d2cfce9",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631104932499,
+      "stop" : 1631104959330,
+      "duration" : 26831
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "PoS Store - Validate navigation to New customer page",
+    "uid" : "c7bf0d25f0661e3f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631104602397,
+      "stop" : 1631104628206,
+      "duration" : 25809
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "PoS Store - Validate navigation to New customer page",
+    "uid" : "75d6676990bcd9e9",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631182829985,
+      "stop" : 1631182856483,
+      "duration" : 26498
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "PoS Store - Validate navigation to New customer page",
+    "uid" : "9822fd135a83dec3",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1631105345034,
+      "stop" : 1631105371397,
+      "duration" : 26363
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Login to GigaStore with valid parameters",
+    "uid" : "650c11677a8d7d2a",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631186339552,
+      "stop" : 1631186351214,
+      "duration" : 11662
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Login to GigaStore with valid parameters",
+    "uid" : "a415baaace81146",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631183520084,
+      "stop" : 1631183531230,
+      "duration" : 11146
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "PoS Store - Validate navigation to New customer page",
+    "uid" : "a39479878c8f9292",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631183136836,
+      "stop" : 1631183163480,
+      "duration" : 26644
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "PoS Store - Validate navigation to New customer page",
+    "uid" : "6c158f3d874c3ed8",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1631108050177,
+      "stop" : 1631108076066,
+      "duration" : 25889
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "PoS Store - Validate navigation to New customer page",
+    "uid" : "64cc9eb0491a3687",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631126772757,
+      "stop" : 1631126800499,
+      "duration" : 27742
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "PoS Store - Validate navigation to New customer page",
+    "uid" : "20196990bd093bda",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631187244044,
+      "stop" : 1631187269939,
+      "duration" : 25895
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Login to GigaStore with valid parameters",
+    "uid" : "6570172cd5847ea0",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631187232801,
+      "stop" : 1631187244040,
+      "duration" : 11239
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Login to GigaStore with valid parameters",
+    "uid" : "33d0eef13118ff75",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631182818718,
+      "stop" : 1631182829981,
+      "duration" : 11263
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "PoS Store - Validate navigation to New customer page",
+    "uid" : "334f02167849a6d1",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631105689756,
+      "stop" : 1631105715213,
+      "duration" : 25457
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "PoS Store - Validate navigation to New customer page",
+    "uid" : "d9f05c38f9282664",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1631186853228,
+      "stop" : 1631186879389,
+      "duration" : 26161
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Login to GigaStore with valid parameters",
+    "uid" : "826ce27216537a8c",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631186841247,
+      "stop" : 1631186853226,
+      "duration" : 11979
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "PoS Store - Validate navigation to New customer page",
+    "uid" : "56a144dac03826a2",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1631186351218,
+      "stop" : 1631186377064,
+      "duration" : 25846
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Login to GigaStore with valid parameters",
+    "uid" : "c798f7493eb6be5d",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1631183125376,
+      "stop" : 1631183136832,
+      "duration" : 11456
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "PoS Store - Validate navigation to New customer page",
+    "uid" : "6de853ccf3ecd4d5",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "failed",
+    "time" : {
+      "start" : 1631104798926,
+      "stop" : 1631104824794,
+      "duration" : 25868
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ]
+}

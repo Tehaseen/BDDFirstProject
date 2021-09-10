@@ -1,0 +1,39 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "GigaStore Login",
+    "children" : [ {
+      "name" : "Login to GigaStore with valid parameters",
+      "uid" : "6570172cd5847ea0",
+      "parentUid" : "0658ab993ca2d1ed51222968ed57382d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631187232801,
+        "stop" : 1631187244040,
+        "duration" : 11239
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "0658ab993ca2d1ed51222968ed57382d"
+  }, {
+    "name" : "GigaStore Point of Sale Store",
+    "children" : [ {
+      "name" : "PoS Store - Validate navigation to New customer page",
+      "uid" : "20196990bd093bda",
+      "parentUid" : "a89848ef71341c290bd7e1aa07c4852f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631187244044,
+        "stop" : 1631187269939,
+        "duration" : 25895
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a89848ef71341c290bd7e1aa07c4852f"
+  } ]
+}

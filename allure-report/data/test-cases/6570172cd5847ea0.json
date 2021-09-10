@@ -1,0 +1,178 @@
+{
+  "uid" : "6570172cd5847ea0",
+  "name" : "Login to GigaStore with valid parameters",
+  "fullName" : "GigaStore Login: Login to GigaStore with valid parameters",
+  "historyId" : "106fb991154ea2c21d68f6c082392235",
+  "time" : {
+    "start" : 1631187232801,
+    "stop" : 1631187244040,
+    "duration" : 11239
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given launch Chrome browser",
+      "time" : {
+        "start" : 1631187232801,
+        "stop" : 1631187235258,
+        "duration" : 2457
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When open GigaStore Homepage",
+      "time" : {
+        "start" : 1631187235259,
+        "stop" : 1631187239508,
+        "duration" : 4249
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And Enter username \"t.m@tm.tm\" and password \"Qwerty12345\"",
+      "time" : {
+        "start" : 1631187239508,
+        "stop" : 1631187241625,
+        "duration" : 2117
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And Click on login button",
+      "time" : {
+        "start" : 1631187241625,
+        "stop" : 1631187244015,
+        "duration" : 2390
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then User must successfully login to the Dashboard page",
+      "time" : {
+        "start" : 1631187244015,
+        "stop" : 1631187244040,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "GigaStore Login"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "826ce27216537a8c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631186841247,
+        "stop" : 1631186853226,
+        "duration" : 11979
+      }
+    }, {
+      "uid" : "650c11677a8d7d2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631186339552,
+        "stop" : 1631186351214,
+        "duration" : 11662
+      }
+    }, {
+      "uid" : "a415baaace81146",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631183520084,
+        "stop" : 1631183531230,
+        "duration" : 11146
+      }
+    }, {
+      "uid" : "c798f7493eb6be5d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631183125376,
+        "stop" : 1631183136832,
+        "duration" : 11456
+      }
+    }, {
+      "uid" : "33d0eef13118ff75",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631182818718,
+        "stop" : 1631182829981,
+        "duration" : 11263
+      }
+    }, {
+      "uid" : "a706554681b8b25b",
+      "status" : "broken",
+      "statusDetails" : "\nYou can implement step definitions for undefined steps with these snippets:\n\n@given(u'launch Chrome browser')\ndef step_impl(context):\n    raise NotImplementedError(u'STEP: Given launch Chrome browser')\n\n",
+      "time" : {
+        "start" : 1631108050174,
+        "stop" : 1631108050175,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6570172cd5847ea0.json",
+  "parameterValues" : [ ]
+}

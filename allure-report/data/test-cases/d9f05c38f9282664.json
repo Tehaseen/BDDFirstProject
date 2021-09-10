@@ -1,0 +1,139 @@
+{
+  "uid" : "d9f05c38f9282664",
+  "name" : "PoS Store - Validate navigation to New customer page",
+  "fullName" : "GigaStore Point of Sale Store: PoS Store - Validate navigation to New customer page",
+  "historyId" : "799df3f7d33c05dbef19f8f0fa1c7c58",
+  "time" : {
+    "start" : 1631186853228,
+    "stop" : 1631186879389,
+    "duration" : 26161
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=93.0.4577.63)\n\n",
+  "statusTrace" : "  File \"/Users/tehaseenmujawar/PycharmProjects/BDDFirstProject/venv/lib/python3.9/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Users/tehaseenmujawar/PycharmProjects/BDDFirstProject/venv/lib/python3.9/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/GigaStorePOSSsteps.py\", line 52, in close_browser\n    context.driver.close()\n  File \"/Users/tehaseenmujawar/PycharmProjects/BDDFirstProject/venv/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py\", line 688, in close\n    self.execute(Command.CLOSE)\n  File \"/Users/tehaseenmujawar/PycharmProjects/BDDFirstProject/venv/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py\", line 321, in execute\n    self.error_handler.check_response(response)\n  File \"/Users/tehaseenmujawar/PycharmProjects/BDDFirstProject/venv/lib/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py\", line 242, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=93.0.4577.63)\n\n",
+    "statusTrace" : "  File \"/Users/tehaseenmujawar/PycharmProjects/BDDFirstProject/venv/lib/python3.9/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Users/tehaseenmujawar/PycharmProjects/BDDFirstProject/venv/lib/python3.9/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/GigaStorePOSSsteps.py\", line 52, in close_browser\n    context.driver.close()\n  File \"/Users/tehaseenmujawar/PycharmProjects/BDDFirstProject/venv/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py\", line 688, in close\n    self.execute(Command.CLOSE)\n  File \"/Users/tehaseenmujawar/PycharmProjects/BDDFirstProject/venv/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py\", line 321, in execute\n    self.error_handler.check_response(response)\n  File \"/Users/tehaseenmujawar/PycharmProjects/BDDFirstProject/venv/lib/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py\", line 242, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+    "steps" : [ {
+      "name" : "Given login to the GigaStore",
+      "time" : {
+        "start" : 1631186853228,
+        "stop" : 1631186872835,
+        "duration" : 19607
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When navigate to Point of Sale store",
+      "time" : {
+        "start" : 1631186872836,
+        "stop" : 1631186876948,
+        "duration" : 4112
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And click on New Customer card",
+      "time" : {
+        "start" : 1631186876949,
+        "stop" : 1631186879027,
+        "duration" : 2078
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then verify navigation to New Customer card",
+      "time" : {
+        "start" : 1631186879028,
+        "stop" : 1631186879383,
+        "duration" : 355
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "82eff5f103c8a2bd",
+        "name" : "screenshot",
+        "source" : "82eff5f103c8a2bd.png",
+        "type" : "image/png",
+        "size" : 228083
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "And close browser",
+      "time" : {
+        "start" : 1631186879384,
+        "stop" : 1631186879389,
+        "duration" : 5
+      },
+      "status" : "broken",
+      "statusMessage" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=93.0.4577.63)\n\n",
+      "statusTrace" : "  File \"/Users/tehaseenmujawar/PycharmProjects/BDDFirstProject/venv/lib/python3.9/site-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/Users/tehaseenmujawar/PycharmProjects/BDDFirstProject/venv/lib/python3.9/site-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"features/steps/GigaStorePOSSsteps.py\", line 52, in close_browser\n    context.driver.close()\n  File \"/Users/tehaseenmujawar/PycharmProjects/BDDFirstProject/venv/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py\", line 688, in close\n    self.execute(Command.CLOSE)\n  File \"/Users/tehaseenmujawar/PycharmProjects/BDDFirstProject/venv/lib/python3.9/site-packages/selenium/webdriver/remote/webdriver.py\", line 321, in execute\n    self.error_handler.check_response(response)\n  File \"/Users/tehaseenmujawar/PycharmProjects/BDDFirstProject/venv/lib/python3.9/site-packages/selenium/webdriver/remote/errorhandler.py\", line 242, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "GigaStore Point of Sale Store"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d9f05c38f9282664.json",
+  "parameterValues" : [ ]
+}

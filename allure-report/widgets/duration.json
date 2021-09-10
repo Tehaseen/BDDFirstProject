@@ -1,0 +1,21 @@
+[ {
+  "uid" : "6570172cd5847ea0",
+  "name" : "Login to GigaStore with valid parameters",
+  "time" : {
+    "start" : 1631187232801,
+    "stop" : 1631187244040,
+    "duration" : 11239
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "20196990bd093bda",
+  "name" : "PoS Store - Validate navigation to New customer page",
+  "time" : {
+    "start" : 1631187244044,
+    "stop" : 1631187269939,
+    "duration" : 25895
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
