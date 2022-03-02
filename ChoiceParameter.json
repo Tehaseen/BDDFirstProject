@@ -1,0 +1,12 @@
+{
+    "SelectTag": [
+    {
+      "key": "Onboarding",
+      "value": "@Onboardingtest"
+    },
+    {
+      "key": "LogIn",
+      "value": "@LogIn"
+    }
+  ]
+}
